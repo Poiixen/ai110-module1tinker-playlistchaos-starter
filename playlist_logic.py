@@ -11,7 +11,6 @@ DEFAULT_PROFILE = {
     "include_mixed": True,
 }
 
-
 def normalize_title(title: str) -> str:
     """Normalize a song title for comparisons."""
     if not isinstance(title, str):
